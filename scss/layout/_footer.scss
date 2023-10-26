@@ -1,0 +1,34 @@
+
+
+footer {
+  
+        margin-top: 10rem;
+        background-color: gray;
+        padding-top: 1rem;
+        border-top: solid 3rem;
+        color:  rgb(89, 76, 76);
+        padding-bottom: 1rem;
+        position:absolute;
+        bottom: 0;
+       width: 100%;
+
+       a {
+        text-decoration: none;
+        color: black;
+        font-family: "nunito";
+       }
+       ul{
+        list-style-type: none;
+        text-align: center;
+        text-align: center;
+
+       }
+
+}
+
+.telefonos { 
+    font-family: "nunito";
+    text-align: center;
+    margin-top: 1rem;
+    color: antiquewhite;
+}

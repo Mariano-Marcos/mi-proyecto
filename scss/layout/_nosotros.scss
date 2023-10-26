@@ -1,0 +1,58 @@
+.grid-container {
+   
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 15rem 15rem 40rem;
+gap: 1rem;
+margin: 7rem;
+margin-left: 20rem;
+margin-right: 20rem;
+
+}
+
+
+
+.grid-item {
+    border: solid 1px;
+}
+
+.grid-itemuno {
+    border: solid 1px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+   background-color: grey;
+   border-radius: 1rem;
+   padding: 1rem;
+   width: 100%;
+}
+
+
+
+section div p {
+    color: antiquewhite;
+    font-family: "nunito";
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem;
+}
+
+.bodynosotros {
+    background-color: rgb(60, 58, 58);
+}
+
+.grid-itemcuatro {
+    display: grid;
+    grid-column: 1/4;
+    border-radius: 0.5rem;
+    background-color: gray;
+margin-top: 3rem;
+
+img {
+    
+    width: 80%;
+    height: 50%;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+}
