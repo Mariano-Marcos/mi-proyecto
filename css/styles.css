@@ -39,32 +39,6 @@ main section div h3 {
   font-weight: 200;
 }
 
-@media (max-width: 681px) {
-  header {
-    padding: 0.6rem;
-  }
-  header nav ul li a {
-    font-size: 0.9rem;
-    margin: 0.2rem;
-  }
-  header div img {
-    width: 5rem;
-    margin-left: rem;
-    padding-left: 1rem;
-  }
-  main section div h3 {
-    font-size: 1.5rem;
-  }
-  footer section p {
-    font-size: 0.7rem;
-  }
-  footer section ul li a {
-    font-size: 0.7rem;
-  }
-  section div p {
-    font-size: 0.5rem;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -112,15 +86,31 @@ footer ul {
   color: antiquewhite;
 }
 
-@media (max-width: 681px) {
+@media (max-width: 600px) {
   header {
     padding: 15px;
+    width: 100%;
+    height: 8rem;
   }
   header nav ul li {
     margin: 0.1rem;
   }
   header nav ul li a {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin: 0.2rem;
+  }
+  header div img {
+    width: 5rem;
+  }
+  main section div h3 {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+  footer section ul li a {
+    font-size: 0.8rem;
+  }
+  section p {
+    font-size: 0.8rem;
   }
 }
 .formulario {
@@ -157,12 +147,9 @@ footer ul {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 15rem 15rem 40rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 7rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
 }
 
 .grid-item {
@@ -171,12 +158,13 @@ footer ul {
 
 .grid-itemuno {
   border: solid 1px;
-  grid-column: 1/4;
-  grid-row: 1/3;
+  grid-column: 2/5;
+  grid-row: 2/5;
   background-color: grey;
   border-radius: 1rem;
   padding: 1rem;
   width: 100%;
+  height: 100%;
 }
 
 section div p {
@@ -184,25 +172,11 @@ section div p {
   font-family: "nunito";
   font-size: 2rem;
   text-align: center;
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .bodynosotros {
   background-color: rgb(60, 58, 58);
-}
-
-.grid-itemcuatro {
-  display: grid;
-  grid-column: 1/4;
-  border-radius: 0.5rem;
-  background-color: gray;
-  margin-top: 3rem;
-}
-.grid-itemcuatro img {
-  width: 80%;
-  height: 50%;
-  margin-top: 5rem;
-  margin-left: 7rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

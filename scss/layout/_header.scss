@@ -47,36 +47,3 @@ main section div h3 {
 }
 
 
-
-@media (max-width: 681px) {
-  header {
-    padding: 0.6rem;
-  }
-
-  header nav ul li a {
-    font-size: 0.9rem;
-    margin: 0.2rem;
-  }
-  header div img {
-    width: 5rem;
-    margin-left: rem;
-    padding-left: 1rem;
- }
-main section div h3 {
-  font-size: 1.5rem;
-}
-
-footer section p {
-  font-size: 0.7rem;
-
-  
-}
-footer section ul li a {
-  font-size: 0.7rem;
-}
-section div p {
-  font-size: 0.5rem;
-}
-
-
-}
