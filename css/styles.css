@@ -112,6 +112,11 @@ footer ul {
   section p {
     font-size: 0.8rem;
   }
+  .catalogo {
+    width: 70%;
+    height: 40rem;
+    margin-left: 5rem;
+  }
 }
 .formulario {
   /*esta funcion le da color de fondo*/
