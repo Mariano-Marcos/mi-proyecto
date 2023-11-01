@@ -1,0 +1,21 @@
+
+
+a {
+    text-decoration: none;
+    font-family: "nunito";
+   margin: 1rem;
+   
+   font-size: larger;
+   color:$color-enlaces;
+   border-left: solid;
+   padding-left: 10px;
+   border-color: $color-gray;
+   &:hover {
+    transition: all 1s;
+    color: orange;
+    margin: 20px;
+   
+   }
+
+
+}
