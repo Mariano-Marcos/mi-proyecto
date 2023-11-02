@@ -31,7 +31,7 @@ header a:hover {
   margin: 20px;
 }
 
-main section div h3 {
+main section h3 {
   font-family: "nunito";
   color: azure;
   text-align: left;
@@ -69,17 +69,11 @@ footer {
   bottom: 0;
   width: 100%;
 }
-footer a {
-  text-decoration: none;
-  color: black;
-  font-family: "nunito";
-}
 footer ul {
   list-style-type: none;
   text-align: center;
   text-align: center;
 }
-
 .telefonos {
   font-family: "nunito";
   text-align: center;
@@ -207,6 +201,22 @@ footer ul {
 }
 .icono-wp:hover {
   transform: rotate(360deg);
+}
+
+a, footer a {
+  text-decoration: none;
+  font-family: "nunito";
+  margin: 1rem;
+  font-size: larger;
+  color: azure;
+  border-left: solid;
+  padding-left: 10px;
+  border-color: gray;
+}
+a:hover {
+  transition: all 1s;
+  color: orange;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

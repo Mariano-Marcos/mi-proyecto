@@ -12,17 +12,19 @@ footer {
         bottom: 0;
        width: 100%;
 
-       a {
-        text-decoration: none;
-        color: black;
-        font-family: "nunito";
-       }
+
        ul{
         list-style-type: none;
         text-align: center;
         text-align: center;
-
+    
        }
+
+
+   a {
+      @extend a;
+
+     }
 
 }
 
@@ -32,3 +34,6 @@ footer {
     margin-top: 1rem;
     color: antiquewhite;
 }
+
+
+
