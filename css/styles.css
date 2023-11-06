@@ -112,7 +112,11 @@ footer ul {
 .catalogo {
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.catalogo img {
+  width: auto;
 }
 
 #carouselExampleFade {
@@ -125,7 +129,7 @@ footer ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto-fit, 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 .grid-container .grid-itemuno {
   border: solid 1px;
@@ -140,7 +144,7 @@ footer ul {
 .grid-container p {
   color: antiquewhite;
   font-family: "nunito";
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   margin: 2rem;
 }
