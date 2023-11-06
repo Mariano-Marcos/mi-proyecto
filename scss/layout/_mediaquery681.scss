@@ -1,41 +1,20 @@
-
-
 @media (max-width: 600px) 
 {
-    header {
-        padding: 15px;
-        width: 100%;
-        height: 8rem;
-        
-    }
-    header nav ul li {
-        margin: 0.1rem;
-    }
-    header nav ul li a {
-        font-size: 0.8rem;
-        margin: 0.2rem;
-
-
-    }
-    header div img {
-        width: 5rem;
-    }
-    
-    main section div h3 {
-        font-size: 0.9rem;
-        padding: 0.6rem;
-    }
+main section div h3 {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+}
 
 footer section ul li a {
-    font-size: 0.8rem;
-    
+font-size: 0.8rem;
+
 }
 
 
 section p {
 
 
-    font-size: 0.8rem;
+font-size: 0.8rem;
 }
 
 
@@ -45,40 +24,13 @@ height: 40rem;
 margin-left: 5rem;
 }
 
-
-
-.formulario {
-    width: 100%;
-    height: 30rem;
+.animacionwp img {
+    width: 3rem;
+}
  
-}
-
-form div label {
-    font-size: 0.8rem;
-
-}
-.telefono label input {
-    position: absolute;
-    
-}
-
-.telefono {
-    position: absolute;
-    left: 5rem;
+section div  p {
+    font-size: 1rem;
 }
 
 
-#carouselExampleFade {
- width: 80%;
-margin: auto;
-
-
-   
-
 }
-
-}
-
-
-
-
