@@ -4,7 +4,7 @@ footer {
   
         margin-top: 10rem;
         background-color: gray;
-        padding-top: 1rem;
+        padding-top: 0rem;
         border-top: solid 3rem;
         color:  rgb(89, 76, 76);
         padding-bottom: 1rem;
@@ -35,5 +35,10 @@ footer {
     color: antiquewhite;
 }
 
+section ul li a {
+    display: flex;
+    justify-content: center;
+    
 
+}
 
